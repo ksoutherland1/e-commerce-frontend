@@ -7,15 +7,17 @@ const Navigation = () => {
   return (
     <Fragment>
       <div className='nav-container'>
-          <Link to="/">
-            Home
+          <Link className='logo' to="/">
+            Earth
           </Link>
-          <Link to="/About">
-            About
-          </Link>
-          <Link to="/Shop">
-            Shop
-          </Link>
+          <div className='nav-links'>
+            <Link className='link' to="/About">
+              About
+            </Link>
+            <Link className='link' to="/Shop">
+              Shop
+            </Link>
+          </div>
       </div>
       <Outlet/>
     </Fragment>

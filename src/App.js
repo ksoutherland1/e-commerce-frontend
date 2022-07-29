@@ -3,6 +3,7 @@ import Home from "./routes/home/Home"
 import Shop from "./routes/shop/Shop";
 import About from "./routes/about/About";
 import Nav from "./routes/navigation/Navigation";
+import "./App.scss"
 
 function App() {
   return (
