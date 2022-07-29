@@ -1,0 +1,76 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A48F78;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 20vw;
+    margin: auto;
+	max-width: 30rem;
+	padding: 50px;
+	background: #FCF9EE;
+    border-radius: 16px;
+    
+}
+
+.contact{
+    color: #A48F78;
+    padding-bottom: 1rem;
+}
+
+.name{
+    min-height: 2rem;
+    width: 25vw;
+    border: none;
+    border-radius: 16px;  
+    margin-bottom: .5rem;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email{
+    min-height: 2rem;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.message{
+    border: none;
+    border-radius: 16px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.send{
+    border-radius: 16px;
+    border: none;
+    min-height: 2rem;
+    padding: 10px;
+    background-color: #A48F78;
+
+    color: white;
+}
+
+.contact-pic{
+    width: 40rem;
+    height: 35rem;
+    padding-left: 10rem;
+}
+
+.contact-qoute{
+    color: white;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Marck Script', cursive;
+}
