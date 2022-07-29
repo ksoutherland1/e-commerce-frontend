@@ -8,7 +8,7 @@ const Navigation = () => {
     <Fragment>
       <div className='nav-container'>
           <Link className='logo' to="/">
-            Earth
+            The Blank Canvas
           </Link>
           <div className='nav-links'>
             <Link className='link' to="/About">
