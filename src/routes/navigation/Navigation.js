@@ -8,11 +8,14 @@ const Navigation = () => {
     <Fragment>
       <div className='nav-container'>
           <Link className='logo' to="/">
-            Earth
+            The Blank Canvas
           </Link>
           <div className='nav-links'>
             <Link className='link' to="/About">
               About
+            </Link>
+            <Link className='link' to="/Contact">
+              Contact
             </Link>
             <Link className='link' to="/Shop">
               Shop
